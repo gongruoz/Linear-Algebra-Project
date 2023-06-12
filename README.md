@@ -1,5 +1,19 @@
 # Linear-Algebra-Project
 
+We approximate fstar(x) = sin(x) on the interval [0, pi/2] via polynomials using a least squares approach. 
+An overdetermined system is when the matrix A in Ax=b is a verticallly longer rectangle. Then there is no exact solution to the linear system. To approximately solve it, we minimize the quadratic objective function |Ax-b|^2 by setting the gradient to zero, the gradient of the quadratic function is a linear function, so it entails solving a linear system.
+Least squares algorithm can solve optimization problems: min|Ax-b|^2 can be found by setting the gradient of that to 0, equivalently solving A'A c = A'b.
+We look at the approximation error, and compare the derivatives of the target function and its approximation. 
+
+
+
+![image](https://github.com/gongruoz/Linear-Algebra-Project/assets/48230527/b1da1936-4d3e-4a6f-9e6c-b60afdd07c84)
+
+
+
+
+
+------------------------------------------------------------------------------------------
 Project assignment for "Linear Algebra"
 
 When your notebook is ready, please check it into your Github repository.  To "hand in" your notebook, you can send the URL of your Github repository.
